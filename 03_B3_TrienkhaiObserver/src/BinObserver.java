@@ -6,6 +6,6 @@ public class BinObserver extends Observer {
 
     @Override
     public void update() {
-        System.out.print(" " + Integer.toBinaryString(subject.getState()));
+        System.out.print(Integer.toBinaryString(subject.getState())+" ");
     }
 }

@@ -6,6 +6,6 @@ public class HexObserver extends Observer {
 
     @Override
     public void update() {
-        System.out.print(" " + Integer.toHexString(subject.getState()));
+        System.out.print(Integer.toHexString(subject.getState())+" ");
     }
 }
